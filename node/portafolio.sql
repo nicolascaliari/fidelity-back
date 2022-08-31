@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 25-08-2022 a las 14:53:11
+-- Tiempo de generación: 31-08-2022 a las 01:26:55
 -- Versión del servidor: 5.7.36
 -- Versión de PHP: 7.4.26
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `portafolio`
 --
+CREATE DATABASE IF NOT EXISTS `portafolio` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `portafolio`;
 
 -- --------------------------------------------------------
 
